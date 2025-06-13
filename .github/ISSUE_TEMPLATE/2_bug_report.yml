@@ -1,0 +1,45 @@
+name:  🐛 Bug Report 🐛
+description: "🛠️ Found a problem? Let us know here!"
+title: "[🐛Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: "expectation"
+    attributes:
+      label: "✨ What You Expected"
+      description: "How should the software work? Describe what you expected to happen."  
+    validations:
+      required: false
+  - type: textarea
+    id: "describe-the-bug"
+    attributes:
+      label: "❓ What Actually Happened"
+      description: "Oops! Something went wrong? Please tell us what you saw - the more details, the better!"  
+    validations:
+      required: true
+  - type: textarea
+    id: "reproduction-method"
+    attributes:
+      label: "📝 Steps to Reproduce the Issue"
+      description: "Can you tell us how you encountered this bug? List the steps so we can find the problem faster."
+      placeholder: "For example:\n1. Used what feature\n2. Then this happened...\n3. Oops! Problem occurred!"
+    validations:
+      required: false
+  - type: textarea
+    id: "more"
+    attributes:
+      label: "📌 Additional Information"
+      description: "Anything else you'd like to tell us? System information, version numbers, etc."
+      placeholder: "Example:\nSystem: Windows 11\nVersion: 23H2"
+    validations:
+      required: false
+  - type: checkboxes
+    id: "latest-version"
+    attributes:
+      label: "✅ Final Checklist"
+      description: "Before submitting your bug report, please confirm the following:"  
+      options:
+        - label: "⚡ I've confirmed I'm using the latest version, not an older one."
+          required: true
+        - label: "📋 I've checked the FAQ and known issues list to confirm this is a new bug."
+          required: true

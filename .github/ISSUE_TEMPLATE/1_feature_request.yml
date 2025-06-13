@@ -1,0 +1,36 @@
+name: ✨ Feature Request ✨
+description: "💡 Got a great idea? Share your creativity with us!"
+title: "[✨Feature Request]: "
+labels: ['enhancement']
+body:
+  - type: input
+    id: problem
+    attributes:
+      label: 🌈 Feature You'd Like  
+      description: "Briefly describe the feature you'd like to add or improve. Let's make the software even better together!"  
+    validations:
+      required: false
+  - type: textarea
+    id: way-to-solve
+    attributes:
+      label: 🚀 Ideal Solution  
+      description: "What does your perfect solution look like? Feel free to use your imagination - don't worry about technical details!"  
+    validations:
+      required: true
+  - type: textarea
+    id: instead
+    attributes:
+      label: 🤔 Alternative Solutions (Optional)  
+      description: "If you have other ideas, please share them here. The more, the merrier!"  
+    validations:
+      required: false
+  - type: checkboxes
+    id: "latest-version"
+    attributes:
+      label: "✅ Final Step"
+      description: "Before submitting your brilliant idea, please confirm the following:"  
+      options:
+        - label: "🌟 I've checked the latest version and confirmed my requested feature isn't already implemented."
+          required: true
+        - label: "📋 I've reviewed existing feature requests to make sure this isn't a duplicate."
+          required: true
