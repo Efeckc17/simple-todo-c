@@ -28,6 +28,16 @@ A modern :) , native Windows Todo application built with C and Win32 API. This p
 - Lightweight native executable
 - Modern Windows visual styles with manifest
 
+## 🐛 Debugging
+
+<div align="center">
+  
+[![Debugging](https://img.shields.io/badge/📚_Debugging_Guide-Click_Here-blue?style=for-the-badge)](DEBUGGING.md)
+
+</div>
+
+Check out our [debugging guide](DEBUGGING.md) for instructions on how to debug this application using Visual Studio, VS Code, or other tools.
+
 ## 💾 Data Storage
 
 The application stores todos in a binary file:
