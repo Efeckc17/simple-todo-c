@@ -31,10 +31,30 @@
    - C/C++ extension
    - MSYS2 with GDB (`pacman -S mingw-w64-x86_64-gdb`)
 
-2. Debug:
-   - Press F5 and select "C/C++ (GDB/LLDB)"
-   - Choose "gcc.exe build and debug active file"
-   - Same shortcuts as Visual Studio
+2. Create `.vscode/launch.json`:
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Todo",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bin/todo_debug.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb.exe"
+        }
+    ]
+}
+```
+
+3. Debug:
+   - F9: Set breakpoint
+   - F5: Start debugging
+   - F10/F11: Step over/into
 
 ## Key Functions to Debug
 
