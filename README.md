@@ -5,6 +5,16 @@
 ![Size](https://img.shields.io/badge/size-60%20KB-brightgreen?style=for-the-badge)
 [![GitHub release (latest by tag)](https://img.shields.io/github/v/tag/Efeckc17/simple-todo-c?style=for-the-badge&color=green&label=latest)](https://github.com/Efeckc17/simple-todo-c/releases)
 
+ ## Payments
+
+If you're building projects in regions where services like PayPal or Stripe are restricted, I built a separate solution:
+
+**PayCow** — accept payments using ERC-20 (TRC-20 soon), without relying on traditional platforms.
+
+https://paycow.net
+
+https://github.com/Efeckc17/Paycow-Introduction
+
 
 A modern :) , native Windows Todo application built with C and Win32 API. This project demonstrates advanced Windows GUI programming and system integration capabilities.
 
